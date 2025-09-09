@@ -25,10 +25,25 @@ Sitio web simple para mostrar una cafetería de práctica, con HTML, CSS y JavaS
 - Tipografía legible y jerarquía visual clara
 - Uso de flexbox y grid para un diseño responsivo
 
-- 4️⃣ Interactividad (JavaScript)
+4️⃣ Interactividad (JavaScript)
 - Animaciones suaves (scroll, hover)
 - Elementos dinámicos como sliders y tabs
 
 5️⃣ Integración de una API pública
 - API pública que mustra el clima con un intervalo de actualización de 10 minutos.
-- Url API: https://openweathermap.org/.
+- URL API: https://openweathermap.org/.
+
+6️⃣ Buenas prácticas de equipo
+- Roles: HTML, CSS, JS, documentación.
+- Usar ramas en Git para cada funcionalidad.
+- Revisar código antes de hacer merge a main.
+- Documentar en README.md:
+- Descripción del proyecto
+- Tecnologías usadas (Visual Studio Code como editor, framework html, CSS, y Javascript)
+- API integrada
+- Créditos del equipo (Ricardo Vega)
+
+7️⃣ Subida a GitHub
+- Repositorio web-coffee.
+- Comandoos utilizados: git init, git add ., git commit -m "Versión inicial", git push.
+- Activar GitHub Pages para que la landing esté online.
