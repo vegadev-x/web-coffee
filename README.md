@@ -21,19 +21,19 @@ Sitio web simple para mostrar una cafetería de práctica, con HTML, CSS y JavaS
 - Footer con información de contacto y redes sociales
 
 3️⃣ Estilos y branding (CSS)
-- Paleta de colores coherente con el tema
+- Paleta cálida (tonos café, crema, beige).
 - Tipografía legible y jerarquía visual clara
 - Uso de flexbox y grid para un diseño responsivo
+- Animaciones suaves al hacer scroll o hover sobre botones.
 
 4️⃣ Interactividad (JavaScript)
 - Animaciones suaves (scroll, hover)
 - Elementos dinámicos como sliders y tabs
+- Consumo de API pública (OpenWeatherMap para mostrar el clima)
 
 5️⃣ Integración de una API pública
 - API pública que muestra el clima con un intervalo de actualización de 10 minutos.
 - URL API: https://openweathermap.org/.
-- Consumo de API pública (OpenWeatherMap para mostrar el clima)
-
 
 6️⃣ Buenas prácticas de equipo
 - Roles: HTML, CSS, JS, documentación.
