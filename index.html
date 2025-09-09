@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Coffee Break</title>
+	<link rel="stylesheet" href="styles.css" />
+	<link rel="stylesheet" href="script.js">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+		integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="script.js"></script>	
+</head>
+
+<body>
+	<header>
+		<div class="container-hero">
+			<div class="container hero">
+				<div class="container-logo">
+					<i class="fa-solid fa-mug-hot"></i>
+					<h1 class="logo"><a href="/">Coffee Break</a></h1>
+				</div>
+
+				<!-- Weather Widget - OpenWeatherMap -->
+				<!-- https://openweathermap.org/weathermap -->
+
+				<div class="container-widget">
+
+					<div id="weather-widget">
+						<div class="weather-location"></div>
+						<div class="weather-temp"></div>
+					</div>
+					
+					<div id="weather-widget">
+						<div class="weather-desc"></div>
+						<img class="weather-icon" alt="icono clima">
+					</div>
+				</div>
+
+				<div class="container-user">
+					<i class="fa-solid fa-user"></i>
+					<i class="fa-solid fa-basket-shopping"></i>
+					<div class="content-shopping-cart">
+						<span class="text">Carrito</span>
+						<span class="number">(0)</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-navbar">
+			<nav class="navbar container">
+				<i class="fa-solid fa-bars"></i>
+				<ul class="menu">
+					<li><a href="#Inicio">Inicio</a></li>
+					<li><a href="#menu">Menú</a></li>
+					<li><a href="#informacion">Información</a></li>
+					<li><a href="#blogs">Blog</a></li>
+					<li><a href="#gallery">Galería</a></li>
+					<li><a href="#contacto">Contacto</a></li>
+				</ul>
+
+				<form class="search-form">
+					<input type="search" placeholder="Buscar..." />
+					<button type="submit" class="btn-search" title="Buscar">
+						<i class="fa-solid fa-magnifying-glass"></i>
+					</button>
+				</form>
+			</nav>
+		</div>
+	</header>
+
+	<section class="banner" id="inicio">
+		<div class="content-banner">
+			<p>Delicioso Café</p>
+			<h2>Con aroma natural<br />100% Ecuatoriano</h2>
+			<a href="#informacion">Información</a>
+		</div>
+	</section>
+
+	<main class="main-content">
+		<section class="container container-features">
+			<div class="card-feature">
+				<i class="fa-solid fa-plane-up"></i>
+				<div class="feature-content">
+					<span>Envío gratuito a nivel local</span>
+					<p>En pedido superior a $15</p>
+				</div>
+			</div>
+			<div class="card-feature">
+				<i class="fa-solid fa-wallet"></i>
+				<div class="feature-content">
+					<span>Contrareembolso</span>
+					<p>100% garantía de devolución de dinero</p>
+				</div>
+			</div>
+			<div class="card-feature">
+				<i class="fa-solid fa-gift"></i>
+				<div class="feature-content">
+					<span>Tarjeta regalo especial</span>
+					<p>Ofrece bonos especiales</p>
+				</div>
+			</div>
+			<div class="card-feature">
+				<i class="fa-solid fa-headset"></i>
+				<div class="feature-content">
+					<span>Servicio al cliente 24/7</span>
+					<p>LLámenos 24/7 al 123-456-7890</p>
+				</div>
+			</div>
+		</section>
+
+<!-- ************* Información ***************** -->		
+		<section class="info" id="informacion">
+			<div class="info-content container">
+				<div class="info-img">
+					<img src="img/gallery4.jpg" alt="">
+				</div>
+
+				<div class="info-txt">
+					<h2>Información Adicional</h2>
+					<p>La mejor calidad en nuestros servicios.</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus deleniti magni architecto
+						perspiciatis cum modi eligendi, sunt fuga, sequi reprehenderit ab nam commodi perferendis! Labore
+						nostrum nemo aspernatur omnis ad?</p>
+					<a href="#" class="btn-1">Leer Más</a>
+				</div>
+			</div>
+		</section>
+
+<!-- ************* Top Propducts ***************** -->		
+		<section class="container top-products" id="menu">
+			<h1 class="heading-1">Nuestro Menú</h1>
+
+			<div class="container-options">
+				<span class="active">Destacados</span>
+				<span>Más recientes</span>
+				<span>Mejores Vendidos</span>
+			</div>
+
+			<div class="container-products">
+				<!-- Producto 1 -->
+				<div class="card-product">
+					<div class="container-img">
+						<img src="img/cafe-irish.jpg" alt="Cafe Irish" />
+						<span class="discount">-13%</span>
+						<div class="button-group">
+							<span>
+								<i class="fa-regular fa-eye"></i>
+							</span>
+							<span>
+								<i class="fa-regular fa-heart"></i>
+							</span>
+							<span>
+								<i class="fa-solid fa-code-compare"></i>
+							</span>
+						</div>
+					</div>
+					<div class="content-card-product">
+						<div class="stars">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-regular fa-star"></i>
+						</div>
+						<h3>Cafe Irish</h3>
+						<span class="add-cart">
+							<i class="fa-solid fa-basket-shopping"></i>
+						</span>
+						<p class="price">$4.60 <span>$5.30</span></p>
+					</div>
+				</div>
+				<!-- Producto 2 -->
+				<div class="card-product">
+					<div class="container-img">
+						<img src="img/cafe-ingles.jpg" alt="Cafe incafe-ingles.jpg" />
+						<span class="discount">-22%</span>
+						<div class="button-group">
+							<span>
+								<i class="fa-regular fa-eye"></i>
+							</span>
+							<span>
+								<i class="fa-regular fa-heart"></i>
+							</span>
+							<span>
+								<i class="fa-solid fa-code-compare"></i>
+							</span>
+						</div>
+					</div>
+					<div class="content-card-product">
+						<div class="stars">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-regular fa-star"></i>
+							<i class="fa-regular fa-star"></i>
+						</div>
+						<h3>Cafe Inglés</h3>
+						<span class="add-cart">
+							<i class="fa-solid fa-basket-shopping"></i>
+						</span>
+						<p class="price">$5.70 <span>$7.30</span></p>
+					</div>
+				</div>
+				<!-- Producto 3 -->
+				<div class="card-product">
+					<div class="container-img">
+						<img src="img/cafe-australiano.jpg" alt="Cafe Australiano" />
+						<div class="button-group">
+							<span>
+								<i class="fa-regular fa-eye"></i>
+							</span>
+							<span>
+								<i class="fa-regular fa-heart"></i>
+							</span>
+							<span>
+								<i class="fa-solid fa-code-compare"></i>
+							</span>
+						</div>
+					</div>
+
+					<div class="content-card-product">
+						<div class="stars">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+						</div>
+						<h3>Cafe Australiano</h3>
+						<span class="add-cart">
+							<i class="fa-solid fa-basket-shopping"></i>
+						</span>
+						<p class="price">$3.20</p>
+					</div>
+				</div>
+				<!-- Producto 4 -->
+				<div class="card-product">
+					<div class="container-img">
+						<img src="img/cafe-helado.jpg" alt="Cafe Helado" />
+						<div class="button-group">
+							<span>
+								<i class="fa-regular fa-eye"></i>
+							</span>
+							<span>
+								<i class="fa-regular fa-heart"></i>
+							</span>
+							<span>
+								<i class="fa-solid fa-code-compare"></i>
+							</span>
+						</div>
+					</div>
+					<div class="content-card-product">
+						<div class="stars">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-regular fa-star"></i>
+						</div>
+						<h3>Cafe Helado</h3>
+						<span class="add-cart">
+							<i class="fa-solid fa-basket-shopping"></i>
+						</span>
+						<p class="price">$5.60</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- *********** Gallery ************ -->
+
+		<section class="gallery" id="gallery">
+			<h1 class="heading-1">Galería</h1>
+
+			<div class="gallery-content container">
+				<div class="container-gallery">
+					<img src="img/gallery1.jpg" alt="Gallery Img1" class="gallery-img-1" /><img src="img/gallery2.jpg"
+						alt="Gallery Img2" class="gallery-img-2" /><img src="img/gallery3.jpg" alt="Gallery Img3"
+						class="gallery-img-3" /><img src="img/gallery4.jpg" alt="Gallery Img4" class="gallery-img-4" /><img
+						src="img/gallery5.jpg" alt="Gallery Img5" class="gallery-img-5" />
+				</div>
+			</div>
+		</section>
+
+		<!-- *********** Blogs ************ -->		
+		<section class="container blogs" id="blogs">
+			<h1 class="heading-1">Últimos Blogs</h1>
+
+			<div class="container-blogs">
+				<div class="card-blog">
+					<div class="container-img">
+						<img src="img/blog-1.jpg" alt="Imagen Blog 1" />
+						<div class="button-group-blog">
+							<span>
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</span>
+							<span>
+								<i class="fa-solid fa-link"></i>
+							</span>
+						</div>
+					</div>
+					<div class="content-blog">
+						<h3>Lorem, ipsum dolor sit</h3>
+						<span>29 Noviembre 2022</span>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Iste, molestiae! Ratione et, dolore ipsum
+							quaerat iure illum reprehenderit non maxime amet dolor
+							voluptas facilis corporis, consequatur eius est sunt
+							suscipit?
+						</p>
+						<div class="btn-read-more">Leer más</div>
+					</div>
+				</div>
+				<div class="card-blog">
+					<div class="container-img">
+						<img src="img/blog-2.jpg" alt="Imagen Blog 2" />
+						<div class="button-group-blog">
+							<span>
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</span>
+							<span>
+								<i class="fa-solid fa-link"></i>
+							</span>
+						</div>
+					</div>
+					<div class="content-blog">
+						<h3>Lorem, ipsum dolor sit</h3>
+						<span>29 Noviembre 2022</span>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Iste, molestiae! Ratione et, dolore ipsum
+							quaerat iure illum reprehenderit non maxime amet dolor
+							voluptas facilis corporis, consequatur eius est sunt
+							suscipit?
+						</p>
+						<div class="btn-read-more">Leer más</div>
+					</div>
+				</div>
+				<div class="card-blog">
+					<div class="container-img">
+						<img src="img/blog-3.jpg" alt="Imagen Blog 3" />
+						<div class="button-group-blog">
+							<span>
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</span>
+							<span>
+								<i class="fa-solid fa-link"></i>
+							</span>
+						</div>
+					</div>
+					<div class="content-blog">
+						<h3>Lorem, ipsum dolor sit</h3>
+						<span>29 Noviembre 2022</span>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Iste, molestiae! Ratione et, dolore ipsum
+							quaerat iure illum reprehenderit non maxime amet dolor
+							voluptas facilis corporis, consequatur eius est sunt
+							suscipit?
+						</p>
+						<div class="btn-read-more">Leer más</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer" id="contacto">
+		<div class="container container-footer">
+			<div class="menu-footer">
+				<div class="contact-info">
+					<p class="title-footer">Información de Contacto</p>
+					<ul>
+						<li>
+							Dirección: Manabí - Ecuador
+						</li>
+						<li>Teléfono: 123-456-7890</li>
+						<li>Fax: 55555300</li>
+						<li>EmaiL: aicodev.ec@vegasupport.com</li>
+					</ul>
+					<div class="social-icons">
+						<span class="facebook">
+							<i class="fa-brands fa-facebook-f"></i>
+						</span>
+						<span class="twitter">
+							<i class="fa-brands fa-twitter"></i>
+						</span>
+						<span class="youtube">
+							<i class="fa-brands fa-youtube"></i>
+						</span>
+						<span class="pinterest">
+							<i class="fa-brands fa-pinterest-p"></i>
+						</span>
+						<span class="instagram">
+							<i class="fa-brands fa-instagram"></i>
+						</span>
+					</div>
+				</div>
+
+				<div class="information">
+					<p class="title-footer">Información</p>
+					<ul>
+						<li><a href="#">Acerca de Nosotros</a></li>
+						<li><a href="#">Información Delivery</a></li>
+						<li><a href="#">Políticas de Privacidad</a></li>
+						<li><a href="#">Términos y condiciones</a></li>
+						<li><a href="#">Contactános</a></li>
+					</ul>
+				</div>
+
+				<div class="my-account">
+					<p class="title-footer">Mi cuenta</p>
+
+					<ul>
+						<li><a href="#">Mi cuenta</a></li>
+						<li><a href="#">Historial de ordenes</a></li>
+						<li><a href="#">Lista de deseos</a></li>
+						<li><a href="#">Boletín</a></li>
+						<li><a href="#">Reembolsos</a></li>
+					</ul>
+				</div>
+
+				<div class="newsletter">
+					<p class="title-footer">Boletín informativo</p>
+
+					<div class="content">
+						<p>
+							Suscríbete a nuestros boletines ahora y mantente al
+							día con nuevas colecciones y ofertas exclusivas.
+						</p>
+						<input type="email" placeholder="Ingresa el correo aquí...">
+						<button>Suscríbete</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="copyright">
+				<p>
+					Desarrollado por VegaDev-X Studio &copy; 2025
+				</p>
+
+				<img src="img/payment.png" alt="Pagos">
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
