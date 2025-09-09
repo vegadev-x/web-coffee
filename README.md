@@ -30,8 +30,10 @@ Sitio web simple para mostrar una cafetería de práctica, con HTML, CSS y JavaS
 - Elementos dinámicos como sliders y tabs
 
 5️⃣ Integración de una API pública
-- API pública que mustra el clima con un intervalo de actualización de 10 minutos.
+- API pública que muestra el clima con un intervalo de actualización de 10 minutos.
 - URL API: https://openweathermap.org/.
+- Consumo de API pública (OpenWeatherMap para mostrar el clima)
+
 
 6️⃣ Buenas prácticas de equipo
 - Roles: HTML, CSS, JS, documentación.
